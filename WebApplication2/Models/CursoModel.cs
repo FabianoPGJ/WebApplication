@@ -16,10 +16,10 @@ namespace WebApplication1.Models
             var lista = new List<CursoModel>();
 
             lista.Add(new CursoModel() { Nome = "Desenvolvimento de Sistemas", Modalidade = "Presencial", Vagas = 40});
-            lista.Add(new CursoModel() { Nome = "Contabilidade", Modalidade = "Semi-Presencial", Vagas = 40});
+            lista.Add(new CursoModel() { Nome = "Secretariado", Modalidade = "Semi-Presencial", Vagas = 40});
             lista.Add(new CursoModel() { Nome = "Administração", Modalidade = "EAD", Vagas = 40});
-            lista.Add(new CursoModel() { Nome = "Edificações", Modalidade = "Presencial (20% EAD)", Vagas = 80});
-            lista.Add(new CursoModel() { Nome = "Recursos Humanos", Modalidade = "EAD", Vagas = 40});
+            lista.Add(new CursoModel() { Nome = "Agenciamento de viagens", Modalidade = "Presencial", Vagas = 80});
+            lista.Add(new CursoModel() { Nome = "Logística", Modalidade = "EAD", Vagas = 40});
 
             return lista;
         }

@@ -14,7 +14,7 @@ namespace WebApplication1.Models
 
         public AlunoModel2()
         {
-            Nome = "Michael";
+            Nome = "Fabiano";
             Curso = "Desenvolvimento de Sistemas";
             Faltas = 1;
             Matricula = new DateTime(2023,1,27);
@@ -23,7 +23,7 @@ namespace WebApplication1.Models
         public static AlunoModel2 CriarAluno()
         {
             var aluno = new AlunoModel2();
-            aluno.Nome = "Emerson";
+            aluno.Nome = "Gabriel Gassner";
             return aluno;
         }
         public static List<AlunoModel2> CriarLista()
@@ -31,10 +31,10 @@ namespace WebApplication1.Models
             var lista = new List<AlunoModel2>();
            // lista.Add(new AlunoModel2());
            // lista.Add(AlunoModel2.CriarAluno());
-           lista.Add(new AlunoModel2() { Nome= "Gabriel Gassner", Curso = "DS", Faltas = 5, Matricula = DateTime.Now});
-           lista.Add(new AlunoModel2() { Nome= "Daniel Souza", Curso = "DS", Faltas = 5, Matricula = DateTime.Now});
-           lista.Add(new AlunoModel2() { Nome= "Rhuan", Curso = "DS", Faltas = 5, Matricula = DateTime.Now});
-           lista.Add(new AlunoModel2() { Nome= "Rodrigo", Curso = "DS", Faltas = 5, Matricula = DateTime.Now});
+           lista.Add(new AlunoModel2() { Nome= "Dabiel Neri", Curso = "DS", Faltas = 4, Matricula = DateTime.Now});
+           lista.Add(new AlunoModel2() { Nome= "Jackson", Curso = "DS", Faltas = 2, Matricula = DateTime.Now});
+           lista.Add(new AlunoModel2() { Nome= "Rodrigo", Curso = "DS", Faltas = 1, Matricula = DateTime.Now});
+           lista.Add(new AlunoModel2() { Nome= "Paola", Curso = "DS", Faltas = 3, Matricula = DateTime.Now});
 
             return lista;
         }
