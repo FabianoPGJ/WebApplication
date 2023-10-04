@@ -11821,11 +11821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LabInfo\\Downloads\\Web Application\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\LabInfo\\Desktop\\Web Application\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\LabInfo\\Downloads\\Web Application\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "C:\\Users\\LabInfo\\Desktop\\Web Application\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\LabInfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LabInfo\\Downloads\\Web Application\\WebApplication2\\obj\\",
+      "outputPath": "C:\\Users\\LabInfo\\Desktop\\Web Application\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
